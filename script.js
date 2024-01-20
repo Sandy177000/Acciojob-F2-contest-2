@@ -32,7 +32,7 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-  arr.filter((emp)=>
+  arr =  arr.filter((emp)=>
     emp.profession!='admin'
   )
   consoleArr();
